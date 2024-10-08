@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioButton1</string>
+    <string name="select">Seleccionar</string>
+    <string name="sum">Suma</string>
+    <string name="rest">Resta</string>
+    <string name="mult">Multiplicacion</string>
+</resources>
