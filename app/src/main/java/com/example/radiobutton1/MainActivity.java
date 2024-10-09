@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         String b = number_2.getText().toString();
 
         if(a.isEmpty() || b.isEmpty()){
-            Toast.makeText(MainActivity.this, "Por favor inserta amobs números", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Por favor inserta ambos números", Toast.LENGTH_SHORT).show();
             return;
         }
 

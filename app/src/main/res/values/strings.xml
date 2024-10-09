@@ -4,4 +4,5 @@
     <string name="sum">Suma</string>
     <string name="rest">Resta</string>
     <string name="mult">Multiplicacion</string>
+    <string name="result">Resultado</string>
 </resources>

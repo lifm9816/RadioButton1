@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="@string/sum"
             android:textColor="@color/white"
-            android:buttonTint="@color/green_btn"/>
+            android:buttonTint="@color/selector_radio_button"/>
 
         <RadioButton
             android:id="@+id/rest"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="@string/rest"
             android:textColor="@color/white"
-            android:buttonTint="@color/green_btn"/>
+            android:buttonTint="@color/selector_radio_button"/>
 
         <RadioButton
             android:id="@+id/multiplication"
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="@string/mult"
             android:textColor="@color/white"
-            android:buttonTint="@color/green_btn"/>
+            android:buttonTint="@color/selector_radio_button"/>
     </RadioGroup>
 
     <Button
@@ -87,9 +87,8 @@
 
     <TextView
         android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_width="142dp"
+        android:layout_height="41dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
